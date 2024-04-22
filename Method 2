@@ -1,0 +1,12 @@
+# spaces from a string
+# Input string
+s="PrepInsta is fabulous"
+# Count no. of spaces in a string
+t=s.count(" ")
+# replace all the spaces with ”
+for i in range(t):
+    s=s.replace(' ',"")
+
+# Print the output
+print("String after removing space: ")
+print(s)
